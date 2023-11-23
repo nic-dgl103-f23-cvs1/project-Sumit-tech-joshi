@@ -1,0 +1,155 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.wrapper-width {
+  width: 1170px;
+  margin: auto;
+}
+
+/* Styling for headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #505d68;
+}
+
+/* Margin styling for specific elements */
+.margin-top-ten {
+  margin: 10% 0;
+}
+
+/* Styling for h2 elements */
+h2 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+/* Styling for h4 elements */
+h4 {
+  font-size: 2rem;
+}
+
+/* Styling for anchor links */
+a {
+  font-size: 2rem;
+}
+
+/* Header styling */
+header {
+  background-color: #CCC5B9 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2% 10%;
+}
+
+/* Styling for navigation menu */
+.nav-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+nav li {
+  padding-top: 6px;
+}
+
+nav a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #505d68;
+}
+
+/* Styling for login link */
+.login-link {
+  display: none;
+}
+
+/* Styling for items in a list */
+.show-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid;
+  padding: 8px;
+}
+
+/* Styling for buttons */
+.button-class {
+  color: #ffffff;
+  background-color: #505d68;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 40px;
+  border-radius: 6px;
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Styling for navigation menu */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Styling for the toggle element */
+  nav .toggle {
+    display: none;
+  }
+
+  h1 {
+    font-weight: 400;
+  }
+
+  /* Styling for navigation wrapper */
+  .nav-wrapper {
+    flex-flow: row-reverse;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 30px;
+    align-items: center;
+  }
+
+  /* Styling for navigation ul */
+  nav ul {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Styling for navigation links */
+  nav a {
+    margin-right: 40px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
