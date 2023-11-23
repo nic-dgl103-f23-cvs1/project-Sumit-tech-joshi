@@ -55,7 +55,22 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 2% 10%;
+  background-color: #ffbb3f;
 }
+
+.site-header {
+  background-image: url("images/mobile-header-bg.jpg");
+  background-repeat: no-repeat;
+  height: 75vh;
+  background-position: center;
+  background-size: contain;
+  background-color: #ffbb3f;
+}
+
+header img{
+ width: 15%;
+}
+
 
 /* Styling for navigation menu */
 .nav-wrapper {
@@ -83,6 +98,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: #505d68;
+  font-size: 3rem;
 }
 
 /* Styling for login link */
@@ -97,6 +113,18 @@ nav a {
   align-items: flex-start;
   border: 1px solid;
   padding: 8px;
+  position: absolute;
+  top: 38px;
+  right: 0px;
+  height: 100vh;
+  background-color: black;
+  width: 100%;
+}
+
+.site-header {
+  display: flex;
+  flex-flow: column-reverse;
+  text-align: center;
 }
 
 /* Styling for buttons */
