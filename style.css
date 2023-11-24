@@ -23,12 +23,27 @@ h2,
 h3,
 h4,
 h5 {
-  color: #505d68;
+  color: #201f1f;
+}
+
+h3 {
+  margin: 0 10%;
 }
 
 /* Margin styling for specific elements */
 .margin-top-ten {
   margin: 10% 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.header-title-span {
+  color: #ffff;
+  font-size: 4rem;
+  display: block;
+  font-size: 4rem;
 }
 
 /* Styling for h2 elements */
@@ -49,7 +64,7 @@ a {
 
 /* Header styling */
 header {
-  background-color: #CCC5B9 ;
+  background-color: #ccc5b9;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,10 +82,9 @@ header {
   background-color: #ffbb3f;
 }
 
-header img{
- width: 15%;
+header img {
+  width: 15%;
 }
-
 
 /* Styling for navigation menu */
 .nav-wrapper {
@@ -138,6 +152,45 @@ nav a {
   border-radius: 6px;
 }
 
+.section-two article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.section-two article:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-two img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.section-two h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.section-two p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.price-on-product {
+  font-weight: bold;
+  color: #e44d26;
+}
+
 @media only screen and (min-width: 1200px) {
   /* Styling for navigation menu */
   nav {
@@ -164,6 +217,11 @@ nav a {
     align-items: center;
   }
 
+  .site-header {
+    background-image: url("images/desktop-header-bg.jpg");
+    height: 75vh;
+  }
+
   /* Styling for navigation ul */
   nav ul {
     display: flex;
@@ -179,5 +237,21 @@ nav a {
     font-size: 1.3rem;
     text-decoration: none;
     text-transform: uppercase;
+  }
+
+  header img {
+    width: 8%;
+    position: relative;
+    bottom: 18px;
+  }
+
+  .section-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  article {
+    flex-basis: 20%; /* 25% width with 20px spacing */
   }
 }
