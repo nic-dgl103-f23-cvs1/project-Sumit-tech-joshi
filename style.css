@@ -193,7 +193,6 @@ nav a {
 
 .section-brand {
   text-align: center;
-  max-height: 34px;
   text-transform: uppercase;
   font-size: 3rem;
 }
@@ -201,10 +200,42 @@ nav a {
 .section-brand__img-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .section-brand__img-wrapper img {
   width: 49%;
+}
+
+.section-call_to_action {
+  text-align: center;
+  padding: 10px;
+}
+
+.section-call_to_action__textarea h2{
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.section-call_to_action__Button-wrapper a {
+  display: block;
+  padding: 16px 20px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #EB5E28;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px #EB5E28;
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.section-call_to_action__div-history {
+  text-align: center;
+}
+
+.section-call_to_action__div-history img {
+  width: 100%;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -273,5 +304,9 @@ nav a {
 
   .section-product img {
     max-height: 250px;
+  }
+
+  .section-brand__img-wrapper img {
+    width: 20%;
   }
 }
