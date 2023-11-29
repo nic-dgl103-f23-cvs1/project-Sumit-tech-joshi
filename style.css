@@ -278,6 +278,72 @@ iframe {
   display: none;
 }
 
+.form-container {
+  margin: 50px auto;
+  background-color: #ccc5b9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10%;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin-bottom: 8px;
+  color: #252422;
+}
+
+.form-container input,
+select,
+textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #252422;
+  border-radius: 4px;
+  background-color: #fffcf2;
+  width: 100%;
+}
+
+.form-container button {
+  padding: 12px 36px;
+  background-color: #ff8000;
+  color: #fffcf2;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2rem;
+  border: none;
+}
+
+.form-container button:hover {
+  background-color: #eb5e28;
+  font-size: 2.3rem;
+  padding: 13px 36px;
+}
+
+.section-shopping__info h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.form-container__measurements img {
+  width: 100%;
+  height: 500px;
+}
+
+.form-container__measurements span {
+  background-color: black;
+  font-size: 2rem;
+  color: white;
+  border-radius: 50%;
+  padding: 6px;
+}
+
 @media only screen and (min-width: 1200px) {
   /* Styling for navigation menu */
   nav {
@@ -351,7 +417,7 @@ iframe {
   }
 
   iframe {
-    border: 4px solid #eb5e27 !important;
+    border: 4px solid #ff8000 !important;
     border-radius: 10px;
     display: block;
     height: 40vh;
@@ -365,5 +431,14 @@ iframe {
 
   .footer-address__social-icons {
     margin-top: 5%;
+  }
+
+  .form-container {
+    width: 1070px;
+  }
+
+  .section-shopping__info {
+    width: 1070px;
+    margin: 0 auto;
   }
 }

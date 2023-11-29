@@ -1,0 +1,209 @@
+<!-- DGL 103 CVS1 - Sumit Joshi - Project -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Suit</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script>
+      function showNav() {
+        let navElement = document.getElementById("nav-items");
+        navElement.classList.toggle("show-items");
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <img src="images/logo.png" alt="Logo img" />
+      <!-- Navigation Menu -->
+      <div class="nav-wrapper">
+        <nav>
+          <a class="toggle" onclick="showNav()"
+            ><i class="fa fa-bars" aria-hidden="true"></i
+          ></a>
+          <ul id="nav-items">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./personal-shopping.html">Personal Shopping</a></li>
+            <li><a href="./custom-suit.html">Custom Suit</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h1>custom suits by jack victor</h1>
+      <p>
+        Experience the epitome of personalized style with Jim’s Clothes Closet,
+        proudly offering bespoke suits, blazers, sports jackets, vests, and
+        pants through the exclusive TruMeasure by Jack Victor. Your satisfaction
+        is our priority, and we are committed to ensuring your custom suit
+        experience is unparalleled.
+      </p>
+
+      <h3>
+        Clients can take advantage of many options, including the following:
+      </h3>
+      <ul>
+        <li>Double breasted styles</li>
+        <li>Extra tall sizing</li>
+        <li>Surgeon’s cuffs Monogrammed initials, up to 4 letters</li>
+
+        <li>Monogrammed name, maximum 20 letters</li>
+        <li>Ticket pocket</li>
+        <li>Pic stitch</li>
+        <li>Button Choice</li>
+        <li>Lining Choice</li>
+        <li>Extra short sizing</li>
+        <li>Personal Label</li>
+        <li>Suspender buttons</li>
+      </ul>
+
+      <section class="form-container">
+        <form>
+          <h2>Measurement Form</h2>
+          <div class="form-container__measurements">
+            <div class="form-group">
+              <label for="height"><span>1</span>Height (inches)</label>
+              <input type="text" id="height" name="height" />
+
+              <label for="chest-under-arm"><span>2</span>Chest Under Arm</label>
+              <input type="text" id="chest-under-arm" name="chestUnderArm" />
+
+              <label for="chest-over-arm"><span>3</span>Chest Over Arm</label>
+              <input type="text" id="chest-over-arm" name="chestOverArm" />
+
+              <label for="waist"><span>4</span>Waist</label>
+              <input type="text" id="waist" name="waist" />
+
+              <label for="hips"><span>5</span>Hips</label>
+              <input type="text" id="hips" name="hips" />
+
+              <label for="shirt-sleeve"><span>6</span>Shirt Sleeve</label>
+              <input type="text" id="shirt-sleeve" name="shirtSleeve" />
+            </div>
+            <img src="images/suite-measurements.png" />
+
+            <div class="form-group">
+              <label for="jacket-insleeve">Jacket Insleeve</label>
+              <input type="text" id="jacket-insleeve" name="jacketInsleeve" />
+
+              <label for="outseam">Outseam</label>
+              <input type="text" id="outseam" name="outseam" />
+
+              <label for="dress-shoe-size">Dress Shoe Size</label>
+              <input type="text" id="dress-shoe-size" name="dressShoeSize" />
+
+              <label for="neck">Neck (inches)</label>
+              <input type="text" id="neck" name="neck" />
+
+              <label for="weight">Weight (pounds)</label>
+              <input type="text" id="weight" name="weight" />
+
+              <div class="form-group special-instructions">
+                <label for="special-instructions">Special Instructions</label>
+                <textarea
+                  id="special-instructions"
+                  name="specialInstructions"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <h2>Additional Details</h2>
+
+          <label for="customerName">First & Last Name:</label>
+          <input type="text" id="customerName" name="customerName" required />
+
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" required />
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required />
+
+          <button type="submit" class="submit-button">
+            Submit Measurements
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-address-outer">
+        <div class="footer-address__wrapper">
+          <div class="footer-address">
+            <h3>jim's courtenay</h3>
+            <p>
+              219 5th Street,<br />
+              Courtenay, BC V9N 1J6, <br />(Downtown Courtenay) <br />Phone:
+              250-338-2624
+            </p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.244511693526!2d-125.24315089999999!3d50.025514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5462af22b7594d0b%3A0xd6d54d42885101d!2s982%20Shoppers%20Row%2C%20Campbell%20River%2C%20BC%20V9W%202C5!5e0!3m2!1sen!2sca!4v1701148782782!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer-address__wrapper">
+          <div class="footer-address">
+            <h3>jim's campbell river</h3>
+            <p>
+              982 Shoppers Row,<br />
+              Campbell River, BC V9W 2C5 <br />(NEW LOCATION) <br />Phone:
+              778-346-3332
+            </p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.244511693526!2d-125.24315089999999!3d50.025514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5462af22b7594d0b%3A0xd6d54d42885101d!2s982%20Shoppers%20Row%2C%20Campbell%20River%2C%20BC%20V9W%202C5!5e0!3m2!1sen!2sca!4v1701148782782!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer-address__wrapper">
+          <div class="footer-address">
+            <h3>jim's courtenay</h3>
+            <p>
+              1237 4th Avenue, <br />
+              Prince George, BC V2L 3J5 <br />(Downtown Courtenay) <br />Phone:
+              236-423-0961
+            </p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.244511693526!2d-125.24315089999999!3d50.025514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5462af22b7594d0b%3A0xd6d54d42885101d!2s982%20Shoppers%20Row%2C%20Campbell%20River%2C%20BC%20V9W%202C5!5e0!3m2!1sen!2sca!4v1701148782782!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer-address__social-icons">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <p class="footer-address__copyright">© 2020 jim's clothes closet</p>
+    </footer>
+  </body>
+</html>
