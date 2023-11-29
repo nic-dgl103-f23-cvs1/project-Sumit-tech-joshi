@@ -278,6 +278,13 @@ iframe {
   display: none;
 }
 
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .form-container {
   margin: 50px auto;
   background-color: #ccc5b9;
@@ -305,6 +312,7 @@ textarea {
   border-radius: 4px;
   background-color: #fffcf2;
   width: 100%;
+  margin: 8px 0px 16px 0px
 }
 
 .form-container button {
@@ -341,7 +349,11 @@ textarea {
   font-size: 2rem;
   color: white;
   border-radius: 50%;
-  padding: 6px;
+  padding: 9px;
+  left: 12px;
+  position: relative;
+  left: -27px;
+  top: 13px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -441,4 +453,13 @@ textarea {
     width: 1070px;
     margin: 0 auto;
   }
+
+  .form-container { 
+    padding: 3%;
+  }
+
+  .form-container__measurements {
+    display: flex;
+    gap: 50px;
+}
 }
