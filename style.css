@@ -340,6 +340,25 @@ section.table-container h2 {
   margin: 5% auto;
 }
 
+
+.section-product__load-more {
+  display: inline-block;
+  color: #fff;
+  background-color: #222;
+  font-size: 2rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section-product {
+  text-align: center;
+}
+
 table {
   width: 80%;
   margin: 50px auto;
@@ -378,9 +397,9 @@ td {
   border: 1px solid #ccc5b9; /* Light brown border */
 }
 
-h1 {
+.table-container h1 {
   text-align: center;
-  color: #252422; /* Pitch Black text */
+  color: #252422; 
 }
 .section-custom-suit__detail-services ul {
   list-style: none;
@@ -521,24 +540,6 @@ section.section-shopping__info {
     width: 1070px;
     margin: 5% auto;
     line-height: 3rem;
-  }
-
-  .section-product {
-    text-align: center;
-  }
-
-  .section-product__load-more {
-    display: inline-block;
-    color: #fff;
-    background-color: #222;
-    font-size: 2rem;
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    padding: 10px;
-    text-transform: uppercase;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
   }
 
   /* Styling for navigation wrapper */
