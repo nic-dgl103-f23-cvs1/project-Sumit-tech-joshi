@@ -66,6 +66,7 @@ header {
   height: 50px;
   position: fixed;
   color: #fff;
+  z-index: 1;
 }
 
 main {
@@ -89,7 +90,7 @@ main {
   color: #222;
   font-size: 6rem;
   display: block;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
@@ -99,7 +100,7 @@ main {
   color: #222;
   background-color: #fff;
   font-size: 1.6rem;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
@@ -131,6 +132,7 @@ nav ul {
 
 nav li {
   padding-top: 6px;
+  margin: 14px 16px;
 }
 
 nav a {
@@ -154,7 +156,7 @@ nav a {
   border: 1px solid;
   padding: 8px;
   position: absolute;
-  top: 38px;
+  top: 50px;
   right: 0px;
   height: 100vh;
   background-color: black;
@@ -427,6 +429,10 @@ textarea {
   padding: 13px 36px;
 }
 
+section.section-shopping__info {
+  padding: 4%;
+}
+
 .section-shopping__info h1 {
   font-size: 4rem;
   text-transform: uppercase;
@@ -480,7 +486,7 @@ textarea {
     color: #fff;
     background-color: #222;
     font-size: 2rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     font-weight: bold;
     padding: 10px;
     text-transform: uppercase;
@@ -488,7 +494,6 @@ textarea {
     text-decoration: none;
     text-align: center;
   }
-
 
   /* Styling for navigation wrapper */
   .nav-wrapper {
@@ -508,10 +513,9 @@ textarea {
     background-position: center;
     height: 100vh;
     padding-left: 10%;
-
   }
 
-  .section-hero__header h1{
+  .section-hero__header h1 {
     max-width: 35%;
     font-size: 8rem;
   }
@@ -560,10 +564,26 @@ textarea {
     margin: 0;
     font-size: 8rem;
     max-width: 40%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     font-weight: bold;
     border: none;
     color: #222;
+  }
+
+  .section-call_to_action__div-history {
+    display: flex;
+    align-items: center;
+    max-width: 1070px;
+    margin: 0 auto;
+  }
+
+  .section-call_to_action__div-history {
+    display: flex;
+    align-items: center;
+  }
+
+  .section-call_to_action__div-history img {
+    width: 450px;
   }
 
   .section-custom-suit__detail-header a {
@@ -572,7 +592,7 @@ textarea {
     background-color: #fff;
     font-size: 3rem;
     max-width: 40%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     font-weight: bold;
     padding: 10px;
     text-transform: uppercase;
@@ -616,6 +636,13 @@ textarea {
 
   .section-brand__img-wrapper img {
     width: 20%;
+  }
+
+  .section-call_to_action__textarea p {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 3rem;
+    margin-top: 10%;
   }
 
   iframe {
