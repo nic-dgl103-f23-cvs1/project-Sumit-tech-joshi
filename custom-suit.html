@@ -21,6 +21,17 @@
         let navElement = document.getElementById("nav-items");
         navElement.classList.toggle("show-items");
       }
+
+      function scrollToSection(sectionId) {
+        const targetElement = document.getElementById("form-container__measurements");
+
+        window.scrollTo({
+          top:
+            targetElement.offsetTop -
+            document.querySelector("nav").offsetHeight,
+          behavior: "smooth",
+        });
+      }
     </script>
   </head>
   <body>
@@ -45,7 +56,7 @@
       <section class="section-custom-suit__detail">
         <div class="section-custom-suit__detail-header">
           <h1>custom suits by jack victor</h1>
-      
+          <a href="#" onclick="scrollToSection('section1')"> Design suit</a>
         </div>
 
         <div class="section-custom-suit__detail-services">
@@ -62,7 +73,10 @@
           <ul>
             <li><span>1</span>Double breasted styles</li>
             <li><span>2</span>Extra tall sizing</li>
-            <li><span>3</span>Surgeon’s cuffs Monogrammed initials, up to 4 letters</li>
+            <li>
+              <span>3</span>Surgeon’s cuffs Monogrammed initials, up to 4
+              letters
+            </li>
             <li><span>4</span>Monogrammed name, maximum 20 letters</li>
             <li><span>5</span>Ticket pocket</li>
             <li><span>6</span>Pic stitch</li>
@@ -76,7 +90,7 @@
       </section>
 
       <section class="form-container">
-        <form>
+        <form id="form-container__measurements">
           <h2>Measurement Form</h2>
           <div class="form-container__measurements">
             <div class="form-group">
