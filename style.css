@@ -331,6 +331,57 @@ iframe {
   background-repeat: no-repeat;
 }
 
+section.table-container {
+  text-align: center;
+}
+
+section.table-container h2 {
+  text-transform: uppercase;
+  margin: 5% auto;
+}
+
+table {
+  width: 80%;
+  margin: 50px auto;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Light yellow background */
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #252422; /* Pitch Black */
+  color: #fffcf2; /* Light yellow text */
+}
+
+tr:nth-child(even) {
+  background-color: #ccc5b9; /* Light brown */
+}
+
+tr:nth-child(odd) {
+  background-color: #fff; /* Light yellow background for odd rows */
+}
+
+td {
+  color: #252422; /* Pitch Black text */
+}
+
+th,
+td {
+  border: 1px solid #ccc5b9; /* Light brown border */
+}
+
+h1 {
+  text-align: center;
+  color: #252422; /* Pitch Black text */
+}
 .section-custom-suit__detail-services ul {
   list-style: none;
   padding: 0;
@@ -695,6 +746,10 @@ section.section-shopping__info {
   .form-container__measurements {
     display: flex;
     gap: 50px;
+  }
+
+  table {
+    width: 1070px;
   }
 
   .section-custom-suit__detail-services h2 {
