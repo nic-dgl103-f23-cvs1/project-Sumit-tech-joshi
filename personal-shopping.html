@@ -75,19 +75,27 @@
       <section class="form-container">
         <form action="#" method="post">
           <label for="name">Your Name (required)</label>
-          <input type="text" id="name" name="name" required />
+          <input type="text" required />
 
-          <label for="phone">Phone Number (required)</label>
-          <input type="tel" id="phone" name="phone" required />
+          <label >Phone Number (required)</label>
+          <input type="tel" required />
 
-          <label for="email">Your Email (required)</label>
-          <input type="email" id="email" name="email" required />
+          <label >Your Email (required)</label>
+          <input type="email" required />
 
-          <label for="location">Jim’s Store Location (required)</label>
-          <select id="location" name="location" required>
-            <option value="courtenay">JIM’S COURTENAY</option>
-            <option value="compile">JIM's compile</option>
+          <label >Jim’s Store Location (required)</label>
+          <select required>
+            <option value="couetenay">jim's couetenay</option>
+            <option value="campbell river">jim's campbell river</option>
+            <option value="dunkan">jim's dunkan</option>
+            <option value="george">jim's prince george</option>
           </select>
+
+          <label >Preferred Appointment Date:</label>
+          <input type="date" required>
+
+          <label >Preferred Appointment Time:</label>
+          <input type="time" required>
 
           <label for="message">Your Message</label>
           <textarea id="message" name="message" rows="4"></textarea>

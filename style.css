@@ -526,6 +526,10 @@ textarea {
   margin: 8px 0px 16px 0px;
 }
 
+ select {
+  text-transform: uppercase;
+}
+
 .form-container button {
   padding: 12px 36px;
   background-color: #ff8000;
@@ -803,14 +807,6 @@ textarea {
 
   .form-container {
     width: 1070px;
-  }
-
-  /* .section-shopping__info {
-    width: 1070px;
-    margin: 0 auto;
-  } */
-
-  .form-container {
     padding: 3%;
   }
 
