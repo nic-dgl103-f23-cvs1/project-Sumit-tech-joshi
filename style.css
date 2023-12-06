@@ -780,7 +780,7 @@ select {
 
   /* Styling for the hero header section */
   .section-hero__header {
-    background-image: url("images/background-home.jpg");
+    background-image: url("images/background-home.png");
     background-attachment: fixed;
     height: 100%;
     background-size: cover;
