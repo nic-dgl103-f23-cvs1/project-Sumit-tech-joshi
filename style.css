@@ -16,7 +16,11 @@ body {
 }
 
 /* Styling for headings */
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: #201f1f;
 }
 
@@ -483,7 +487,8 @@ table {
 }
 
 /* Styling for th and td elements in tables */
-th, td {
+th,
+td {
   padding: 15px;
   text-align: center;
 }
@@ -510,7 +515,8 @@ td {
 }
 
 /* Styling for th and td borders in tables */
-th, td {
+th,
+td {
   border: 1px solid #ccc5b9; /* Light brown border */
 }
 
@@ -878,7 +884,7 @@ select {
     flex-direction: column;
     padding-right: 10%;
   }
-
+  /* Styling for the product wrapper section */
   .section-product__wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -887,29 +893,35 @@ select {
     margin: 0 auto;
   }
 
+  /* Styling for the brand section */
   .section-brand {
     width: 1070px;
     margin: 5% auto;
   }
 
+  /* Styling for article elements */
   article {
     flex-basis: 20%; /* 25% width with 20px spacing */
   }
 
+  /* Styling for product section images */
   .section-product img {
     height: 250px;
   }
 
+  /* Styling for brand section images */
   .section-brand__img-wrapper img {
     width: 20%;
     transform-style: preserve-3d;
     transition: all 1s ease-in-out;
   }
 
+  /* Styling for brand section images on hover */
   .section-brand__img-wrapper img:hover {
     transform: rotateY(360deg);
   }
 
+  /* Styling for call to action textarea paragraph */
   .section-call_to_action__textarea p {
     background-color: #fff;
     padding: 16px;
@@ -917,6 +929,7 @@ select {
     margin-top: 10%;
   }
 
+  /* Styling for iframes */
   iframe {
     border: 4px solid #ff8000 !important;
     border-radius: 10px;
@@ -924,6 +937,7 @@ select {
     height: 40vh;
   }
 
+  /* Styling for custom suit detail services unordered list */
   .section-custom-suit__detail-services ul {
     list-style: none;
     padding: 0;
@@ -932,6 +946,7 @@ select {
     justify-content: space-between;
   }
 
+  /* Styling for custom suit detail services list items */
   .section-custom-suit__detail-services li {
     width: 48%;
     box-sizing: border-box;
@@ -941,80 +956,98 @@ select {
     margin-top: 2%;
   }
 
+  /* Styling for custom suit detail services section */
   .section-custom-suit__detail-services {
     width: 1070px;
     margin: 0 auto;
   }
 
+  /* Styling for mobile shopping video section */
   #section-shopping__mobile-video {
     display: none;
   }
 
+  /* Styling for desktop shopping video section */
   #section-shopping__desktop-video {
     display: block;
   }
 
+  /* Styling for shop video text overlay section */
   .section-shopping__shop-video-text-overlay {
     margin: 0;
   }
 
+  /* Styling for shopping info h1 element */
   .section-shopping__info h1 {
     text-transform: uppercase;
     font-size: 8rem;
     font-family: "Roboto Mono", monospace;
   }
+
+  /* Styling for shopping info paragraph */
   .section-shopping__info p {
     width: 1070px;
     margin: 8% auto;
     padding: 3%;
   }
 
+  /* Styling for footer address wrapper section */
   .footer-address__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
 
+  /* Styling for footer address social icons */
   .footer-address__social-icons {
     margin-top: 5%;
   }
 
+  /* Styling for form container section */
   .form-container {
     width: 1070px;
     padding: 3%;
   }
 
+  /* Styling for form container measurements section */
   .form-container__measurements {
     display: flex;
     gap: 50px;
   }
 
+  /* Styling for table */
   table {
     width: 1070px;
   }
 
+  /* Styling for custom suit detail services h2 element */
   .section-custom-suit__detail-services h2 {
     margin: 0;
   }
 
+  /* Styling for features shop video text overlay section */
   .section-features__shop-video-text-overlay {
     align-items: center;
     justify-content: space-between;
   }
 
+  /* Styling for shopping button wrapper section */
   .section-shopping__button-wrapper {
     width: 60%;
   }
 
+  /* Styling for features shop video text overlay h3 element */
   .section-features__shop-video-text-overlay h3 {
     margin: 3% auto;
     font-size: 5rem;
   }
 
+  /* Styling for features shop video text overlay links */
   .section-features__shop-video-text-overlay a {
     font-size: 4rem;
   }
 
+  /* Styling for features shop video text overlay links on hover */
   .section-features__shop-video-text-overlay a:hover {
     background-color: #ff8001;
     mix-blend-mode: normal;
