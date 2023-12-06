@@ -295,6 +295,12 @@ nav a:hover {
   font-size: 3rem;
 }
 
+/* Styling for product section's h2 elements */
+.section-product h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
 /* Styling for the button wrapper in the call to action section */
 .section-call_to_action__Button-wrapper {
   display: flex;
