@@ -25,6 +25,19 @@
         let navElement = document.getElementById("nav-items");
         navElement.classList.toggle("show-items");
       }
+
+      function scrollToSection(sectionId) {
+        const targetElement = document.getElementById(
+          "section-product-list"
+        );
+
+        window.scrollTo({
+          top:
+            targetElement.offsetTop -
+            document.querySelector("nav").offsetHeight,
+          behavior: "smooth",
+        });
+      }
     </script>
   </head>
   <body>
@@ -50,7 +63,7 @@
         <div class="section-hero__header">
           <h1>Jim’s online store</h1>
 
-          <p>Fashion Finds a Home – Yours!</p>
+          <p onclick="scrollToSection()">Fashion Finds a Home – Yours!</p>
         </div>
         <h3>
           Discover the essence of style at Jim's store – where trendsetting
@@ -59,7 +72,7 @@
         </h3>
       </section>
       <section class="section-product">
-        <div class="section-product__wrapper">
+        <div id="section-product-list" class="section-product__wrapper">
           <article>
             <img src="images/product_01.jpeg" alt="Product Image " />
             <p>
