@@ -136,6 +136,14 @@ nav a {
   text-transform: uppercase;
   color: #fff;
   font-size: 3rem;
+  transition: all 0.5s ease-out;
+  padding: 5px;
+}
+
+nav a:hover {
+  font-size: 2.3rem;
+  background-color: #ddd;
+  color: #201f1f;
 }
 
 /* Styling for login link */
@@ -274,6 +282,12 @@ nav a {
   box-shadow: 0 4px 8px #eb5e28;
   width: 275px;
   margin-top: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.section-call_to_action__Button-wrapper a:hover {
+  background-color: #222;
+  box-shadow: 0 4px 8px #222;
 }
 
 .section-call_to_action__div-history {
@@ -632,6 +646,10 @@ select {
   top: 13px;
 }
 
+.footer-address__social-icons a {
+  color: #222;
+}
+
 @media only screen and (min-width: 1200px) {
   /* Styling for navigation menu */
   nav {
@@ -795,6 +813,12 @@ select {
 
   .section-brand__img-wrapper img {
     width: 20%;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+  }
+
+  .section-brand__img-wrapper img:hover {
+    transform: rotateY(360deg);
   }
 
   .section-call_to_action__textarea p {
