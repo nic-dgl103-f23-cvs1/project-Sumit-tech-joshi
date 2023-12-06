@@ -76,7 +76,7 @@ main {
 
 /* Styling for hero section header */
 .section-hero__header {
-  background-image: url("images/background-home.jpg");
+  background-image: url("images/background-home.png");
   background-repeat: no-repeat;
   height: 75vh;
   background-position: center;
@@ -780,7 +780,6 @@ select {
 
   /* Styling for the hero header section */
   .section-hero__header {
-    background-image: url("images/background-home.png");
     background-attachment: fixed;
     height: 100%;
     background-size: cover;
