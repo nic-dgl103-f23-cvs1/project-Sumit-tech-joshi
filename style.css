@@ -116,6 +116,7 @@ main {
 /* Styling for logo within header */
 header img {
   width: 15%;
+  cursor: pointer;
 }
 
 /* Styling for navigation menu */
@@ -463,7 +464,7 @@ video.section-shopping__shop-video {
 }
 
 /* Styling for information paragraphs in the shopping section */
-.section-shopping__info p {
+.section-shopping__info h3 {
   text-align: center;
   padding: 10%;
   font-weight: bolder;
@@ -985,7 +986,7 @@ select {
   }
 
   /* Styling for shopping info paragraph */
-  .section-shopping__info p {
+  .section-shopping__info h3 {
     width: 1070px;
     margin: 8% auto;
     padding: 3%;
