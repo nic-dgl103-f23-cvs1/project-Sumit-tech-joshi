@@ -253,6 +253,7 @@ nav a:hover {
   width: 49%;
 }
 
+/* Styling for the call to action section */
 .section-call_to_action {
   text-align: center;
   padding: 10px;
@@ -265,32 +266,38 @@ nav a:hover {
   justify-content: space-around;
 }
 
+/* Styling for the text area within the call to action section */
 .section-call_to_action__textarea h2 {
   color: #fff;
   text-transform: uppercase;
 }
 
+/* Styling for paragraphs within the text area of the call to action section */
 .section-call_to_action__textarea p {
   background-color: #fff;
   padding: 10px;
 }
 
+/* Styling for the text area in the call to action section */
 .section-call_to_action__textarea {
   max-width: 1070px;
   margin: 0 auto;
 }
 
+/* Styling for h2 elements */
 .h2 {
   text-transform: uppercase;
   font-size: 3rem;
 }
 
+/* Styling for the button wrapper in the call to action section */
 .section-call_to_action__Button-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* Styling for links within the button wrapper */
 .section-call_to_action__Button-wrapper a {
   display: block;
   padding: 16px 20px;
@@ -305,25 +312,30 @@ nav a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+/* Styling for links within the button wrapper on hover */
 .section-call_to_action__Button-wrapper a:hover {
   background-color: #222;
   box-shadow: 0 4px 8px #222;
 }
 
+/* Styling for the div containing history information */
 .section-call_to_action__div-history {
   text-align: center;
 }
 
+/* Styling for images within the history div */
 .section-call_to_action__div-history img {
   width: 100%;
 }
 
+/* Styling for the footer address wrapper */
 .footer-address__wrapper {
   text-align: center;
   border-top: 1px solid;
   padding: 10px;
 }
 
+/* Styling for the outer footer address */
 .footer-address-outer {
   background-color: #e4e4e4;
   color: #222;
@@ -331,15 +343,18 @@ nav a:hover {
   text-align: center;
 }
 
+/* Styling for h3 elements within the footer address wrapper */
 .footer-address__wrapper h3 {
   text-transform: uppercase;
 }
 
+/* Styling for social icons within the footer address */
 .footer-address__social-icons i {
   font-size: 3rem;
   padding: 16px;
 }
 
+/* Styling for the copyright section within the footer */
 .footer-address__copyright {
   background-color: #222222;
   color: #fff;
@@ -348,10 +363,12 @@ nav a:hover {
   text-align: center;
 }
 
+/* Hiding iframes in the document */
 iframe {
   display: none;
 }
 
+/* Styling for the detail header of the custom suit section */
 .section-custom-suit__detail-header {
   background-image: url("images/background-custom-suit.webp");
   text-align: center;
@@ -365,15 +382,18 @@ iframe {
   background-repeat: no-repeat;
 }
 
+/* Styling for the table container section */
 section.table-container {
   text-align: center;
 }
 
+/* Styling for h2 elements within the table container section */
 section.table-container h2 {
   text-transform: uppercase;
   margin: 5% auto;
 }
 
+/* Styling for the "load more" button in the product section */
 .section-product__load-more {
   display: inline-block;
   color: #fff;
@@ -388,16 +408,19 @@ section.table-container h2 {
   text-align: center;
 }
 
+/* Styling for the product section */
 .section-product {
   text-align: center;
 }
 
+/* Styling for the video container in the shopping section */
 .section-shopping__video-container {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
+/* Styling for the shop video in the shopping section */
 video.section-shopping__shop-video {
   position: absolute;
   width: 100%;
@@ -406,6 +429,7 @@ video.section-shopping__shop-video {
   z-index: -1;
 }
 
+/* Styling for the overlay in the shopping section */
 .section-shopping__shop-video__overlay {
   position: absolute;
   width: 100%;
@@ -413,6 +437,7 @@ video.section-shopping__shop-video {
   background-color: rgb(96 95 95 / 50%);
 }
 
+/* Styling for the text overlay in the shopping section */
 .section-shopping__shop-video-text-overlay {
   height: 60vh;
   display: flex;
@@ -422,6 +447,7 @@ video.section-shopping__shop-video {
   text-align: center;
 }
 
+/* Styling for h1 elements in the text overlay of the shopping section */
 .section-shopping__shop-video-text-overlay h1 {
   background: #000 none repeat scroll 0 0;
   color: #fff;
@@ -432,6 +458,7 @@ video.section-shopping__shop-video {
   text-align: center;
 }
 
+/* Styling for information paragraphs in the shopping section */
 .section-shopping__info p {
   text-align: center;
   padding: 10%;
@@ -439,10 +466,12 @@ video.section-shopping__shop-video {
   border-bottom: 2px solid #ff8001;
 }
 
+/* Styling for the desktop video section in the shopping section */
 #section-shopping__desktop-video {
   display: none;
 }
 
+/* Styling for tables */
 table {
   width: 80%;
   margin: 50px auto;
@@ -453,43 +482,51 @@ table {
   background-color: #fff; /* Light yellow background */
 }
 
-th,
-td {
+/* Styling for th and td elements in tables */
+th, td {
   padding: 15px;
   text-align: center;
 }
 
+/* Styling for th elements in tables */
 th {
   background-color: #252422; /* Pitch Black */
   color: #fffcf2; /* Light yellow text */
 }
 
+/* Styling for even rows in tables */
 tr:nth-child(even) {
   background-color: #ccc5b9; /* Light brown */
 }
 
+/* Styling for odd rows in tables */
 tr:nth-child(odd) {
   background-color: #fff; /* Light yellow background for odd rows */
 }
 
+/* Styling for td elements in tables */
 td {
   color: #252422; /* Pitch Black text */
 }
 
-th,
-td {
+/* Styling for th and td borders in tables */
+th, td {
   border: 1px solid #ccc5b9; /* Light brown border */
 }
 
+/* Styling for h1 elements within table containers */
 .table-container h1 {
   text-align: center;
   color: #252422;
 }
+
+/* Styling for the detail services section of the custom suit */
 .section-custom-suit__detail-services ul {
   list-style: none;
   padding: 0;
 }
 
+/* Styling for li elements in the detail services section of the custom suit */
 .section-custom-suit__detail-services li {
   position: relative;
   margin-bottom: 10px;
@@ -498,6 +535,7 @@ td {
   background-color: #d7d7d7;
 }
 
+/* Styling for span elements within li elements of the detail services section */
 .section-custom-suit__detail-services li span {
   border-radius: 50%;
   background-color: #eb5e28;
@@ -510,6 +548,7 @@ td {
   margin: 5px;
 }
 
+/* Styling for h1 elements in the detail header of the custom suit */
 .section-custom-suit__detail-header h1 {
   font-size: 5rem;
   text-transform: uppercase;
@@ -517,19 +556,23 @@ td {
   border: 1px solid;
 }
 
+/* Styling for h2 elements within the form container */
 .form-container h2 {
   text-transform: uppercase;
 }
 
+/* Styling for h3 elements within the features section */
 .section-features h3 {
   text-transform: uppercase;
 }
 
+/* Styling for the video container in the features section */
 .section-features__video-container {
   position: relative;
   margin-top: 3%;
 }
 
+/* Styling for the shop video in the features section */
 .section-features__shop-video {
   position: absolute;
   width: 100%;
@@ -538,6 +581,7 @@ td {
   z-index: -1;
 }
 
+/* Styling for the text overlay in the features section */
 .section-features__shop-video-text-overlay {
   display: flex;
   height: 75vh;
@@ -547,6 +591,7 @@ td {
   justify-content: space-between;
 }
 
+/* Styling for h3 elements in the text overlay of the features section */
 .section-features__shop-video-text-overlay h3 {
   background: #000 none repeat scroll 0 0;
   color: #fff;
@@ -556,6 +601,7 @@ td {
   font-size: 3rem;
 }
 
+/* Styling for the button wrapper in the shopping section */
 .section-shopping__button-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -564,6 +610,7 @@ td {
   gap: 50px;
 }
 
+/* Styling for links within the button wrapper in the shopping section */
 .section-shopping__button-wrapper a {
   color: #222;
   background-color: #fff;
@@ -579,18 +626,22 @@ td {
   mix-blend-mode: lighten;
 }
 
+/* Styling for links within the detail header of the custom suit (hidden) */
 .section-custom-suit__detail-header a {
   display: none;
 }
 
+/* Styling for paragraphs within the detail services section of the custom suit */
 .section-custom-suit__detail-services p {
   margin: 8%;
 }
 
+/* Styling for h2 elements within the detail services section of the custom suit */
 .section-custom-suit__detail-services h2 {
   margin: 0 8%;
 }
 
+/* Styling for the form container */
 .form-container {
   margin: auto;
   background-color: #ccc5b9;
